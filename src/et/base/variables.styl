@@ -1,0 +1,292 @@
+/*  Define BASE COLORS  */
+white =                 #FFFFFF;
+black =                 #111111;
+red =                   #AA381E;
+blue =                  #66A5DF;
+light-blue =            #ADD8E6;
+green =                 #2ECC40;
+light-green =           #9dcc8c;
+yellow =                #FFFF66;
+orange =                #F8957F;
+purple =                #C699C5;
+deep-purple =           #8960A2;
+teal =                  #28748A;
+pink =                  #dd8494;
+blue-grey =             #5B6471;
+cyan =                  #6EC6C6;
+indigo =                #3F51B5;
+lime =                  #CDDC39;
+amber =                 #f2b632;
+deep-orange =           #ff5722;
+brown =                 #817C5E;
+grey =                  #A6AEA3;
+/*  Mixins and or Functions to Calculate different components  */
+/*  Auto Create Color Pallete Based on Variables */
+//blue-grey
+bg-blue-grey-level1 =         lighten(blue-grey, 43%);
+bg-blue-grey-level2 =         lighten(blue-grey, 36%);
+bg-blue-grey-level3 =         lighten(blue-grey, 25%);
+bg-blue-grey-level4 =         lighten(blue-grey, 20%);
+bg-blue-grey-level5 =         lighten(blue-grey, 11.5%);
+bg-blue-grey-level6 =         darken(blue-grey, 2%);
+bg-blue-grey-level7 =         darken(blue-grey, 4.3%);
+bg-blue-grey-level8 =         darken(blue-grey, 6.7%);
+bg-blue-grey-level9 =         darken(blue-grey, 10%);
+
+//RED
+bg-red-level1 =         lighten(red, 36%);
+bg-red-level2 =         lighten(red, 28%);
+bg-red-level3 =         lighten(red, 20%);
+bg-red-level4 =         lighten(red, 11.5%);
+bg-red-level5 =         lighten(red, 8.5%);
+bg-red-level6 =         darken(red, 15%);
+bg-red-level7 =         darken(red, 20%);
+bg-red-level8 =         darken(red, 24%);
+bg-red-level9 =         darken(red, 27%);
+//BLUE
+bg-blue-level1 =         lighten(blue, 43%);
+bg-blue-level2 =         lighten(blue, 36%);
+bg-blue-level3 =         lighten(blue, 25%);
+bg-blue-level4 =         lighten(blue, 20%);
+bg-blue-level5 =         lighten(blue, 11.5%);
+bg-blue-level6 =         darken(blue, 2%);
+bg-blue-level7 =         darken(blue, 4.3%);
+bg-blue-level8 =         darken(blue, 6.7%);
+bg-blue-level9 =         darken(blue, 17.9%);
+//GREEN
+bg-green-level1 =         lighten(green, 43%);
+bg-green-level2 =         lighten(green, 36%);
+bg-green-level3 =         lighten(green, 25%);
+bg-green-level4 =         lighten(green, 20%);
+bg-green-level5 =         lighten(green, 11.5%);
+bg-green-level6 =         darken(green, 2%);
+bg-green-level7 =         darken(green, 4.3%);
+bg-green-level8 =         darken(green, 6.7%);
+bg-green-level9 =         darken(green, 17.5%);
+
+//pink
+bg-pink-level1 =         lighten(pink, 43%);
+bg-pink-level2 =         lighten(pink, 36%);
+bg-pink-level3 =         lighten(pink, 25%);
+bg-pink-level4 =         lighten(pink, 20%);
+bg-pink-level5 =         lighten(pink, 11.5%);
+bg-pink-level6 =         darken(pink, 2%);
+bg-pink-level7 =         darken(pink, 4.3%);
+bg-pink-level8 =         darken(pink, 6.7%);
+bg-pink-level9 =         darken(pink, 10%);
+
+//purple
+bg-purple-level1 =         lighten(purple, 43%);
+bg-purple-level2 =         lighten(purple, 36%);
+bg-purple-level3 =         lighten(purple, 25%);
+bg-purple-level4 =         lighten(purple, 20%);
+bg-purple-level5 =         lighten(purple, 11.5%);
+bg-purple-level6 =         darken(purple, 2%);
+bg-purple-level7 =         darken(purple, 4.3%);
+bg-purple-level8 =         darken(purple, 6.7%);
+bg-purple-level9 =         darken(purple, 10%);
+
+//deep-purple
+bg-deep-purple-level1 =         lighten(deep-purple, 43%);
+bg-deep-purple-level2 =         lighten(deep-purple, 36%);
+bg-deep-purple-level3 =         lighten(deep-purple, 25%);
+bg-deep-purple-level4 =         lighten(deep-purple, 20%);
+bg-deep-purple-level5 =         lighten(deep-purple, 11.5%);
+bg-deep-purple-level6 =         darken(deep-purple, 2%);
+bg-deep-purple-level7 =         darken(deep-purple, 4.3%);
+bg-deep-purple-level8 =         darken(deep-purple, 6.7%);
+bg-deep-purple-level9 =         darken(deep-purple, 10%);
+
+//indigo
+bg-indigo-level1 =         lighten(indigo, 43%);
+bg-indigo-level2 =         lighten(indigo, 36%);
+bg-indigo-level3 =         lighten(indigo, 25%);
+bg-indigo-level4 =         lighten(indigo, 20%);
+bg-indigo-level5 =         lighten(indigo, 11.5%);
+bg-indigo-level6 =         darken(indigo, 2%);
+bg-indigo-level7 =         darken(indigo, 4.3%);
+bg-indigo-level8 =         darken(indigo, 6.7%);
+bg-indigo-level9 =         darken(indigo, 10%);
+
+//cyan
+bg-cyan-level1 =         lighten(cyan, 43%);
+bg-cyan-level2 =         lighten(cyan, 36%);
+bg-cyan-level3 =         lighten(cyan, 25%);
+bg-cyan-level4 =         lighten(cyan, 20%);
+bg-cyan-level5 =         lighten(cyan, 5.5%);
+bg-cyan-level6 =         darken(cyan, 2%);
+bg-cyan-level7 =         darken(cyan, 4.3%);
+bg-cyan-level8 =         darken(cyan, 6.7%);
+bg-cyan-level9 =         darken(cyan, 10%);
+
+//light-blue
+bg-light-blue-level1 =         lighten(light-blue, 15%);
+bg-light-blue-level2 =         lighten(light-blue, 12%);
+bg-light-blue-level3 =         lighten(light-blue, 8%);
+bg-light-blue-level4 =         lighten(light-blue, 3.5%);
+bg-light-blue-level5 =         lighten(light-blue, 1.5%);
+bg-light-blue-level6 =         darken(light-blue, 5%);
+bg-light-blue-level7 =         darken(light-blue, 10%);
+bg-light-blue-level8 =         darken(light-blue, 16%);
+bg-light-blue-level9 =         darken(light-blue, 28%);
+
+//lime
+bg-lime-level1 =         lighten(lime, 43%);
+bg-lime-level2 =         lighten(lime, 36%);
+bg-lime-level3 =         lighten(lime, 25%);
+bg-lime-level4 =         lighten(lime, 20%);
+bg-lime-level5 =         lighten(lime, 11.5%);
+bg-lime-level6 =         darken(lime, 2%);
+bg-lime-level7 =         darken(lime, 4.3%);
+bg-lime-level8 =         darken(lime, 6.7%);
+bg-lime-level9 =         darken(lime, 10%);
+
+//teal
+bg-teal-level1 =         lighten(teal, 15%);
+bg-teal-level2 =         lighten(teal, 10%);
+bg-teal-level3 =         lighten(teal, 9%);
+bg-teal-level4 =         lighten(teal, 5%);
+bg-teal-level5 =         lighten(teal, 2%);
+bg-teal-level6 =         darken(teal, 2%);
+bg-teal-level7 =         darken(teal, 4.3%);
+bg-teal-level8 =         darken(teal, 6.7%);
+bg-teal-level9 =         darken(teal, 10%);
+
+//light-green
+bg-light-green-level1 =         lighten(light-green, 43%);
+bg-light-green-level2 =         lighten(light-green, 36%);
+bg-light-green-level3 =         lighten(light-green, 25%);
+bg-light-green-level4 =         lighten(light-green, 20%);
+bg-light-green-level5 =         lighten(light-green, 11.5%);
+bg-light-green-level6 =         darken(light-green, 2%);
+bg-light-green-level7 =         darken(light-green, 4.3%);
+bg-light-green-level8 =         darken(light-green, 6.7%);
+bg-light-green-level9 =         darken(light-green, 10%);
+
+//orange
+bg-orange-level1 =         lighten(orange, 43%);
+bg-orange-level2 =         lighten(orange, 36%);
+bg-orange-level3 =         lighten(orange, 25%);
+bg-orange-level4 =         lighten(orange, 20%);
+bg-orange-level5 =         lighten(orange, 11.5%);
+bg-orange-level6 =         darken(orange, 2%);
+bg-orange-level7 =         darken(orange, 4.3%);
+bg-orange-level8 =         darken(orange, 6.7%);
+bg-orange-level9 =         darken(orange, 10%);
+
+//yellow
+bg-yellow-level1 =         lighten(yellow, 43%);
+bg-yellow-level2 =         lighten(yellow, 36%);
+bg-yellow-level3 =         lighten(yellow, 25%);
+bg-yellow-level4 =         lighten(yellow, 20%);
+bg-yellow-level5 =         lighten(yellow, 11.5%);
+bg-yellow-level6 =         darken(yellow, 2%);
+bg-yellow-level7 =         darken(yellow, 4.3%);
+bg-yellow-level8 =         darken(yellow, 6.7%);
+bg-yellow-level9 =         darken(yellow, 10%);
+
+//amber
+bg-amber-level1 =         lighten(amber, 43%);
+bg-amber-level2 =         lighten(amber, 36%);
+bg-amber-level3 =         lighten(amber, 25%);
+bg-amber-level4 =         lighten(amber, 20%);
+bg-amber-level5 =         lighten(amber, 11.5%);
+bg-amber-level6 =         darken(amber, 2%);
+bg-amber-level7 =         darken(amber, 4.3%);
+bg-amber-level8 =         darken(amber, 6.5%);
+bg-amber-level9 =         darken(amber, 10%);
+
+//brown
+bg-brown-level1 =         lighten(brown, 43%);
+bg-brown-level2 =         lighten(brown, 36%);
+bg-brown-level3 =         lighten(brown, 25%);
+bg-brown-level4 =         lighten(brown, 20%);
+bg-brown-level5 =         lighten(brown, 11.5%);
+bg-brown-level6 =         darken(brown, 2%);
+bg-brown-level7 =         darken(brown, 10.3%);
+bg-brown-level8 =         darken(brown, 15%);
+bg-brown-level9 =         darken(brown, 19%);
+
+//grey
+bg-grey-level1 =         lighten(grey, 30%);
+bg-grey-level2 =         lighten(grey, 27%);
+bg-grey-level3 =         lighten(grey, 25%);
+bg-grey-level4 =         lighten(grey, 20%);
+bg-grey-level5 =         lighten(grey, 11.5%);
+bg-grey-level6 =         darken(grey, 19%);
+bg-grey-level7 =         darken(grey, 29%);
+bg-grey-level8 =         darken(grey, 39.9%);
+bg-grey-level9 =         darken(grey, 49%);
+
+//deep-orange
+bg-deep-orange-level1 =         lighten(deep-orange, 36.5%);
+bg-deep-orange-level2 =         lighten(deep-orange, 32%);
+bg-deep-orange-level3 =         lighten(deep-orange, 25%);
+bg-deep-orange-level4 =         lighten(deep-orange, 9.5%);
+bg-deep-orange-level5 =         lighten(deep-orange, 6.5%);
+bg-deep-orange-level6 =         darken(deep-orange, 2%);
+bg-deep-orange-level7 =         darken(deep-orange, 11.3%);
+bg-deep-orange-level8 =         darken(deep-orange, 13.7%);
+bg-deep-orange-level9 =         darken(deep-orange, 18.2%);
+
+/*  Choose how you want your
+ *  From the following settings to set your css
+ *  the way that you want  */
+
+/*  Typography  */
+
+
+/*  Fonts  */
+
+
+
+/* Other Colors used mostly for code*/
+off-white =             #95A2BB;
+bright-white =          #adbcd7;
+background-black =      #292C33;
+bright-black =          #2D323A;
+
+
+
+// Use color primarily for emphasis. Choose colors that fit with
+// your brand and provide good contrast between visual components.
+
+color-primary =        #f1f1f1;
+color-primary-dark =   #f5f5f5;
+color-accent =         blue;
+
+/*  Buttons  */
+
+/*  Badge  */
+
+/*  Card  */
+
+/*  Data Table  */
+
+/*  Mega Footer  */
+
+/*  Mini Footer  */
+
+/*  Icon Toggle */
+
+/*  Tabs  */
+
+/* GRID */
+
+grid-desktop-columns = 12 !default;
+grid-desktop-gutter = 16px !default;
+grid-desktop-margin = 16px !default;
+
+grid-desktop-breakpoint = 840px !default;
+
+grid-tablet-columns = 8 !default;
+grid-tablet-gutter = grid-desktop-gutter !default;
+grid-tablet-margin = grid-desktop-margin !default;
+
+grid-tablet-breakpoint = 480px !default;
+
+grid-phone-columns = 4 !default;
+grid-phone-gutter = grid-desktop-gutter !default;
+grid-phone-margin = grid-desktop-margin !default;
+
+grid-cell-default-columns = grid-phone-columns !default;
